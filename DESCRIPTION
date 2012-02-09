@@ -1,0 +1,20 @@
+Package: pisa
+License: GPL (>= 2)
+Title: Programme for International Student Assessment (PISA)
+Type: Package
+Author: Jason Bryer <jason@bryer.org>
+Maintainer: Jason Bryer <jason@bryer.org>
+Description: Data and functions for the Programme of International Student
+    Assessment (PISA). Please see inst/PISAProductLicense.pdf for information
+    regarding the use of PISA data. This R package is not endorsed by OECD and
+    is provided as is.
+Version: 1.0
+URL: http://jbryer.github.com/
+Depends:
+    R (>= 2.14)
+Suggests:
+    multilevelPSA,
+    plyr
+Date: 2012-02-09
+Collate:
+    'pisa-package.R'
