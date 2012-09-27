@@ -6,6 +6,9 @@
 \description{
   Programme for International Student Assessment (PISA)
 }
+\details{
+  This package provides the 2009 PISA data formatted for R.
+}
 \author{
   Jason Bryer \email{jason@bryer.org}
 }

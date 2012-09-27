@@ -14,7 +14,11 @@ Depends:
     R (>= 2.14)
 Suggests:
     multilevelPSA,
-    plyr
+    plyr,
+    memisc
 Date: 2012-02-09
 Collate:
     'pisa-package.R'
+    'recodePISA.r'
+    'spss-parse-labels.r'
+    'spss-parse-variable-labels.r'
