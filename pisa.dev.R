@@ -59,8 +59,9 @@ save(pisa.catalog.school, file='pisa/data/pisa.catalog.school.rda')
 save(pisa.catalog.cognitive, file='pisa/data/pisa.catalog.cognitive.rda')
 save(pisa.catalog.scoredcognitive, file='pisa/data/pisa.catalog.scoredcognitive.rda')
 
-
-
+##### Parse value labels (experimental). 
+# Note that the syntax files are encoded using a Windows encoding therefore this
+# will fail on non-Windows systems.
 pisa.catalog.students.values <- spss.parse.labels('pisa/inst/spss/INT_STQ09_SPSS_DEC11.sps')
 pisa.catalog.parent.values <- spss.parse.labels('pisa/inst/spss/INT_PAR09_SPSS_DEC11.sps')
 pisa.catalog.school.values <- spss.parse.labels('pisa/inst/spss/INT_SCQ09_SPSS_DEC11.sps')
