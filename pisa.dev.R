@@ -1,11 +1,6 @@
-install.packages(c('devtools', 'roxygen2'), 
-				 repos=c('http://cran.r-project.org', 'http://r-forge.r-project.org'))
-
 require(devtools)
-require(roxygen2)
 
 setwd("~/Dropbox/Projects") #Mac
-setwd("C:/Dropbox/Projects") #Windows
 getwd()
 
 #Package building
