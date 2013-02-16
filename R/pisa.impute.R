@@ -8,8 +8,8 @@
 #' @param maxToImpute the maximum percentage to attempt to impute. Must be a value
 #'        between 0 and 1.
 #' @param ... other parameters passed to \code{mice}
-#' @import mice
 impute.pisa <- function(toimpute, grouping, maxToImpute=.5, ...) {
+	require(mice)
 	cols = names(toimpute)	
 	imputePlyr <- function(x) {
 		missing = apply(x, 2, function(c) sum(is.na(c))) / nrow(x)
